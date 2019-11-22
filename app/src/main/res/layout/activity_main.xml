@@ -7,7 +7,6 @@
     android:paddingRight="30dp"
     android:paddingTop="30dp"
     android:paddingBottom="30dp"
-    android:background="#043709"
     tools:context = ".MainActivity">
 
     <TextView
@@ -16,7 +15,7 @@
         android:layout_height = "wrap_content"
         android:text = "Welcome"
         android:textSize = "35dp"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:layout_alignParentTop = "true"
         android:layout_centerHorizontal = "true" />
 
@@ -26,8 +25,8 @@
         android:id = "@+id/editText"
         android:hint = "Enter Name"
         android:focusable = "true"
-        android:textColorHint = "#fff"
-        android:textColor="#fff"
+        android:textColorHint = "#383D39"
+        android:textColor="#000"
         android:layout_marginTop = "46dp"
         android:layout_below = "@+id/imageView"
         android:layout_alignParentLeft = "true"
@@ -49,14 +48,14 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:id="@+id/editText2"
         android:layout_below="@+id/editText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/editText"
         android:layout_alignEnd="@+id/editText"
-        android:textColorHint="#fff"
+        android:textColorHint="#383D39"
         android:hint="Password" />
 
     <Button
@@ -66,7 +65,7 @@
         android:text="LOGIN"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:background="#ff0000"
+        android:background="#0C40AE"
         android:layout_marginTop="20dp"
         android:textColor="#fff"
         android:layout_below="@+id/editText2"/>
@@ -77,7 +76,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:text="Forgot Password?"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:layout_below="@+id/login" />
 
     <Button
@@ -85,7 +84,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:text="Register"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:layout_below="@+id/login"
         android:layout_toRightOf="@+id/button1"
         android:layout_marginLeft="140dp"/>
